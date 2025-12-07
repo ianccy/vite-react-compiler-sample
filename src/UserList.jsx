@@ -1,11 +1,5 @@
 /* eslint-disable react-hooks/purity */
-import React, {
-  useState,
-  useEffect,
-  useRef,
-  useMemo,
-  useCallback,
-} from "react";
+import { useState, useEffect, useRef } from "react";
 import List from "./List";
 
 function UserList({ users }) {
