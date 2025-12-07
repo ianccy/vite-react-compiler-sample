@@ -1,3 +1,8 @@
+# Compare
+Before - [no react-compiler version](https://ianccy.github.io/vite-react-compiler-sample/dist-before/index.html)
+
+After - [react-compiler version](https://ianccy.github.io/vite-react-compiler-sample/dist/index.html)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
