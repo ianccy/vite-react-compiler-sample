@@ -1,6 +1,5 @@
-import React from "react";
-
 const List = ({ data }) => {
+  console.log("List render");
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       {data.map((d) => (
