@@ -3,7 +3,7 @@ import "./index.css";
 
 const generateUsers = () => {
   const users = [];
-  for (let i = 0; i < 1000000; i++) {
+  for (let i = 0; i < 200000; i++) {
     users.push({ id: i, name: `User ${i}` });
   }
   return users;
