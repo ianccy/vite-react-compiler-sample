@@ -5,9 +5,9 @@ function UserList({ users }) {
   const [count, setCount] = useState(0);
   const [query, setQuery] = useState("");
 
+  // 乾乾淨淨沒有任何的 memo
   const filteredUsers = users.filter((user) => user.name.includes(query));
 
-  // 2. 使用 useCallback 優化事件處理
   const handleClick = (id) => {
     console.log("click", id);
   };
